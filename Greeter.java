@@ -20,7 +20,11 @@ public class Greeter {
     //oh yay I fixed a bug!!
     String language = args[0];
     String country = args[1];
+<<<<<<< HEAD
     String name = args[2].toUpperCase();
+=======
+    String name = "##"+args[2]+"##";
+>>>>>>> feature-2
     Greeter greeter = new Greeter(language, country, name);
     System.out.println(greeter.sayHello());
   }
